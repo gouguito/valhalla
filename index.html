@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valhalla - Viking Realm</title>
+    <!-- Link to Google Fonts for Viking-style font -->
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background-color: #000;
+            color: white;
+            overflow-x: hidden;
+        }
+
+        /* Header with background GIF */
+        .header {
+            background: url('https://media1.tenor.com/m/XfgJd7Ap5r8AAAAd/valhalla-northman.gif') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            background-size: cover;
+            color: white;
+            position: relative;
+        }
+
+        /* Top Text */
+        .top-text {
+            position: absolute;
+            top: 10%; /* Moved slightly lower */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2rem; /* Reduced font size */
+            text-align: center;
+            color: white;
+            padding: 10px 0;
+            z-index: 10;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .top-text h1 {
+            font-size: 3.5rem;
+            margin: 0;
+        }
+
+        .top-text p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        /* Main Text in the center, adjusted lower */
+        .main-text {
+            position: absolute;
+            bottom: 20px; /* Moved lower to the bottom */
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: 'MedievalSharp', sans-serif; /* Viking-style font applied here */
+            font-size: 2rem; /* Reduced font size */
+            text-align: center;
+            color: white;
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+            line-height: 1.4;
+            font-weight: bold;
+        }
+
+        /* Footer Section with custom background */
+        .footer {
+            background: url('https://cdn.discordapp.com/attachments/1188245055207653488/1303523042353483896/kk.jpg') no-repeat center center/cover;
+            padding: 30px;
+            text-align: center;
+            color: #bbb;
+            background-size: cover;
+            color: white;
+        }
+
+        .footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2rem;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Text Section -->
+    <div class="top-text">
+        <h1>Valhalla - The Viking Realm</h1>
+        <p>Join the warriors of Valhalla. A legendary journey awaits.</p>
+    </div>
+
+    <!-- Header Section with background GIF -->
+    <div class="header">
+        <!-- Content can be here, but we already moved the text to the top -->
+    </div>
+
+    <!-- Main Text at the bottom -->
+    <div class="main-text">
+        <p>Seek Valhalla</p>
+        <p>Dream Valhalla</p>
+        <p>Achieve greatness</p>
+        <p>Buy $Valhalla</p>
+    </div>
+
+    <!-- Music Background from YouTube -->
+    <div style="display:none;">
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/KIbIIfQAdM0?autoplay=1&loop=1&playlist=KIbIIfQAdM0" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+    </div>
+
+    <!-- Footer Section with custom background -->
+    <div class="footer">
+        <p>&copy; 2024 Valhalla. All rights reserved.</p>
+        <a href="https://twitter.com/valhallarealm_" target="_blank">Twitter</a>
+    </div>
+
+</body>
+</html>
